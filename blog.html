@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+<body>
+      <!-- Navigation Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Karens Blog</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Main Content Section -->
+      <div class="row">
+        <div class="container">
+          <div class="container_courasel">
+            <div class="carousel-item active">   
+                <div id="carouselExampleLight" class="carousel carousel-light slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleLight" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                
+                  <div class="carousel-inner" id="myCourasel">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img src="assets/slide-1.jpg" class="d-block w-100" alt="blog-post2">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Blog Post 1</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus felis non ante commodo, nec tincidunt odio mollis. Phasellus at lobortis mi.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="assets/pexels-pixabay-36717.jpg" class="d-block w-100" alt="blog-post2">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Blog Post 2</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus felis non ante commodo, nec tincidunt odio mollis. Phasellus at lobortis mi.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/slide-3.jpg" class="d-block w-100" alt="blog-post3">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Blog Post 3</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus felis non ante commodo, nec tincidunt odio mollis. Phasellus at lobortis mi.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- Blog section -->
+    <div class="row">
+      <div class="container_blogpost">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Trip to Berlin
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <div class="clearfix" id="about_me_page">
+                  <img src="assets/Berlin.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="landscape-photo">
+                
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus felis non ante commodo, nec tincidunt odio mollis. Phasellus at lobortis mi. Cras tincidunt erat et tellus scelerisque, eget eleifend tortor tempus. Sed ultricies elit in magna efficitur, nec accumsan tortor cursus. Nullam vel ipsum leo. Vivamus sit amet nulla id ipsum facilisis convallis. Integer vitae mauris id risus aliquam dictum. Fusce bibendum, sapien nec congue convallis, elit mauris eleifend ligula, id ullamcorper urna lacus non ex. Nam lacinia nisl eget nisi ultrices, quis viverra leo varius. Proin sodales scelerisque velit a interdum. Maecenas tempor feugiat nulla sit amet ultrices. Aenean sed fermentum sem. Mauris pharetra eros sed metus malesuada, in tincidunt sem lobortis.
+                  </p>
+                
+                  <p>
+                    Suspendisse potenti. Aliquam non odio feugiat, ultricies lectus ut, consequat risus. Morbi accumsan, risus in dignissim rutrum, metus eros vulputate mi, id aliquam ex urna vel leo. Nulla facilisi. Cras rutrum ante eget magna varius luctus. Vestibulum finibus nunc nec justo facilisis, ut accumsan magna scelerisque. Nam ac tortor felis. Phasellus quis enim nec elit pharetra congue vel et odio. Ut ultricies justo at finibus viverra. Nulla facilisi.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                Trip to Thailand
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <div class="clearfix" id="about_me_page">
+                  <img src="assets/Thailand.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="landscape-photo">
+                
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus felis non ante commodo, nec tincidunt odio mollis. Phasellus at lobortis mi. Cras tincidunt erat et tellus scelerisque, eget eleifend tortor tempus. Sed ultricies elit in magna efficitur, nec accumsan tortor cursus. Nullam vel ipsum leo. Vivamus sit amet nulla id ipsum facilisis convallis. Integer vitae mauris id risus aliquam dictum. Fusce bibendum, sapien nec congue convallis, elit mauris eleifend ligula, id ullamcorper urna lacus non ex. Nam lacinia nisl eget nisi ultrices, quis viverra leo varius. Proin sodales scelerisque velit a interdum. Maecenas tempor feugiat nulla sit amet ultrices. Aenean sed fermentum sem. Mauris pharetra eros sed metus malesuada, in tincidunt sem lobortis.
+                  </p>
+                
+                  <p>
+                    Suspendisse potenti. Aliquam non odio feugiat, ultricies lectus ut, consequat risus. Morbi accumsan, risus in dignissim rutrum, metus eros vulputate mi, id aliquam ex urna vel leo. Nulla facilisi. Cras rutrum ante eget magna varius luctus. Vestibulum finibus nunc nec justo facilisis, ut accumsan magna scelerisque. Nam ac tortor felis. Phasellus quis enim nec elit pharetra congue vel et odio. Ut ultricies justo at finibus viverra. Nulla facilisi.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Trip to Canada
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <div class="clearfix" id="about_me_page">
+                  <img src="assets/Canada.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="landscape-photo">
+                
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus felis non ante commodo, nec tincidunt odio mollis. Phasellus at lobortis mi. Cras tincidunt erat et tellus scelerisque, eget eleifend tortor tempus. Sed ultricies elit in magna efficitur, nec accumsan tortor cursus. Nullam vel ipsum leo. Vivamus sit amet nulla id ipsum facilisis convallis. Integer vitae mauris id risus aliquam dictum. Fusce bibendum, sapien nec congue convallis, elit mauris eleifend ligula, id ullamcorper urna lacus non ex. Nam lacinia nisl eget nisi ultrices, quis viverra leo varius. Proin sodales scelerisque velit a interdum. Maecenas tempor feugiat nulla sit amet ultrices. Aenean sed fermentum sem. Mauris pharetra eros sed metus malesuada, in tincidunt sem lobortis.
+                  </p>
+                
+                  <p>
+                    Suspendisse potenti. Aliquam non odio feugiat, ultricies lectus ut, consequat risus. Morbi accumsan, risus in dignissim rutrum, metus eros vulputate mi, id aliquam ex urna vel leo. Nulla facilisi. Cras rutrum ante eget magna varius luctus. Vestibulum finibus nunc nec justo facilisis, ut accumsan magna scelerisque. Nam ac tortor felis. Phasellus quis enim nec elit pharetra congue vel et odio. Ut ultricies justo at finibus viverra. Nulla facilisi.
+                  </p>            
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    
+
+<!-- footer -->
+    <div class="row">
+     <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+                <p>Stay Connected!<br><br>Join our community for more updates and insights:</p>
+            </div>
+            
+            <div class="col-sm-4">
+              <p>
+                Follow me on social media:
+                <a href="#">Facebook</a>,
+                <a href="#">Twitter</a>,
+                <a href="#">Instagram</a>
+              </p>
+              <p>© 2024 Karens Blog. All rights reserved.</p>
+            </div>  
+            
+            <div class="col-sm-4">
+              <p class="col">Subscribe to my newsletter for the latest articles and news.</p>
+              <p>Contact me: <a href="mailto:k.wamasali@gmail.com">k.wamasali@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

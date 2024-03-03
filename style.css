@@ -1,0 +1,61 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Home Page */
+    .clearfix {
+        padding: 3rem;
+    }
+
+    .container_blog {
+        padding: 3rem 3rem 3rem 3rem;
+    }
+
+
+/* Carousel */
+    .carousel-item {
+        height: 32rem;
+        background: #333;
+        color: #f0f0f0
+        padding: 3rem;
+        opacity: 0.75;
+    }
+    .carousel-caption {
+        color: whitesmoke;
+        }
+
+/* Accordion blog post */    
+    .container_blogpost {
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+            padding: 6rem;
+    }
+
+    .accordion-header  {
+        color: bisque;
+    }
+
+/* Contact Page */
+    .container_contact {
+        padding: 3rem 3rem;
+        border: #333 solid thick;
+        margin: 15px
+
+    }
+
+/* Footer CSS */
+footer {
+    position: relative;
+    background-color: #333;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #f0f0f0;
+  }
+  footer a {
+    color: #ff00fbdb;
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: none;
+  }
